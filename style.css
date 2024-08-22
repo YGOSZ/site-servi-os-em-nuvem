@@ -1,0 +1,96 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Imagens */
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    main h2 {
+        font-size: 1.8em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
